@@ -1,0 +1,896 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="17b98822-600c-4a94-9b05-efb6cfa9f32a" name="Default Changelist" comment="" />
+    <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <ignored path="$PROJECT_DIR$/../dubbo-base-interface/target/" />
+    <ignored path="$PROJECT_DIR$/../user-service-provider/target/" />
+    <ignored path="$PROJECT_DIR$/../geektime-spring-family/Chapter 16/final-waiter-service/target/" />
+    <ignored path="$PROJECT_DIR$/../geektime-spring-family/Chapter 2/datasource-demo/target/" />
+    <ignored path="$PROJECT_DIR$/../geektime-spring-family/Chapter 10/sba-client-demo/target/" />
+    <ignored path="$PROJECT_DIR$/../geektime-spring-family/Chapter 5/r2dbc-repository-demo/target/" />
+    <ignored path="$PROJECT_DIR$/../geektime-spring-family/Chapter 7/complex-resttemplate-demo/target/" />
+    <ignored path="$PROJECT_DIR$/../geektime-spring-family/Chapter 16/sleuth-customer-service/target/" />
+    <ignored path="$PROJECT_DIR$/../geektime-spring-family/Chapter 16/final-barista-service/target/" />
+    <ignored path="$PROJECT_DIR$/../geektime-spring-family/Chapter 12/fixed-discovery-client-demo/target/" />
+    <ignored path="$PROJECT_DIR$/../geektime-spring-family/Chapter 2/programmatic-transaction-demo/target/" />
+    <ignored path="$PROJECT_DIR$/../geektime-spring-family/Chapter 13/bulkhead-customer-service/target/" />
+    <ignored path="$PROJECT_DIR$/../geektime-spring-family/Chapter 13/resilience4j-circuitbreaker-demo/target/" />
+    <ignored path="$PROJECT_DIR$/../geektime-spring-family/Chapter 5/simple-reactor-demo/target/" />
+    <ignored path="$PROJECT_DIR$/../geektime-spring-family/Chapter 10/ssl-customer-service/target/" />
+    <ignored path="$PROJECT_DIR$/../geektime-spring-family/Chapter 5/redis-demo/target/" />
+    <ignored path="$PROJECT_DIR$/../geektime-spring-family/Chapter 12/ribbon-customer-service/target/" />
+    <ignored path="$PROJECT_DIR$/../geektime-spring-family/Chapter 10/sba-server-demo/target/" />
+    <ignored path="$PROJECT_DIR$/../geektime-spring-family/Chapter 6/complex-controller-demo/target/" />
+    <ignored path="$PROJECT_DIR$/../geektime-spring-family/Chapter 13/turbine-demo/target/" />
+    <ignored path="$PROJECT_DIR$/../geektime-spring-family/FAQ 2019-02/druid-demo/target/" />
+    <ignored path="$PROJECT_DIR$/../geektime-spring-family/Chapter 7/advanced-resttemplate-demo/target/" />
+    <ignored path="$PROJECT_DIR$/../geektime-spring-family/Chapter 15/kafka-barista-service/target/" />
+    <ignored path="$PROJECT_DIR$/../geektime-spring-family/Chapter 10/jar-demo/target/" />
+    <ignored path="$PROJECT_DIR$/../geektime-spring-family/Chapter 12/nacos-waiter-service/target/" />
+    <ignored path="$PROJECT_DIR$/../geektime-spring-family/Chapter 8/hateoas-waiter-service/target/" />
+    <ignored path="$PROJECT_DIR$/../geektime-spring-family/Chapter 14/zk-config-waiter-service/target/" />
+    <ignored path="$PROJECT_DIR$/../geektime-spring-family/Chapter 4/mongo-repository-demo/target/" />
+    <ignored path="$PROJECT_DIR$/../geektime-spring-family/Chapter 7/simple-resttemplate-demo/target/" />
+    <ignored path="$PROJECT_DIR$/../geektime-spring-family/Chapter 4/redis-repository-demo/target/" />
+    <ignored path="$PROJECT_DIR$/../geektime-spring-family/Chapter 2/druid-demo/target/" />
+    <ignored path="$PROJECT_DIR$/../geektime-spring-family/Chapter 12/consul-customer-service/target/" />
+    <ignored path="$PROJECT_DIR$/../geektime-spring-family/Chapter 6/simple-controller-demo/target/" />
+    <ignored path="$PROJECT_DIR$/../geektime-spring-family/Chapter 15/rabbitmq-barista-service/target/" />
+    <ignored path="$PROJECT_DIR$/../geektime-spring-family/Chapter 2/simple-jdbc-demo/target/" />
+    <ignored path="$PROJECT_DIR$/../geektime-spring-family/Chapter 16/final-customer-service/target/" />
+    <ignored path="$PROJECT_DIR$/../geektime-spring-family/Chapter 10/ssl-waiter-service/target/" />
+    <ignored path="$PROJECT_DIR$/../geektime-spring-family/Chapter 13/hystrix-customer-service/target/" />
+    <ignored path="$PROJECT_DIR$/../geektime-spring-family/Chapter 5/reactive-springbucks/target/" />
+    <ignored path="$PROJECT_DIR$/../geektime-spring-family/Chapter 5/performance-aspect-demo/target/" />
+    <ignored path="$PROJECT_DIR$/../geektime-spring-family/Chapter 4/mongo-demo/target/" />
+    <ignored path="$PROJECT_DIR$/../geektime-spring-family/Chapter 2/multi-datasource-demo/target/" />
+    <ignored path="$PROJECT_DIR$/../geektime-spring-family/Chapter 14/git-config-waiter-service/target/" />
+    <ignored path="$PROJECT_DIR$/../geektime-spring-family/Chapter 6/springbucks/target/" />
+    <ignored path="$PROJECT_DIR$/../geektime-spring-family/Chapter 6/json-view-demo/target/" />
+    <ignored path="$PROJECT_DIR$/../geektime-spring-family/Chapter 16/mq-zipkin-barista-service/target/" />
+    <ignored path="$PROJECT_DIR$/../geektime-spring-family/Chapter 9/geektime-spring-boot-autoconfigure/target/" />
+    <ignored path="$PROJECT_DIR$/../geektime-spring-family/Chapter 15/scheduled-customer-service/target/" />
+    <ignored path="$PROJECT_DIR$/../geektime-spring-family/Chapter 7/webclient-demo/target/" />
+    <ignored path="$PROJECT_DIR$/../geektime-spring-family/Chapter 10/indicator-demo/target/" />
+    <ignored path="$PROJECT_DIR$/../geektime-spring-family/Chapter 8/session-demo/target/" />
+    <ignored path="$PROJECT_DIR$/../geektime-spring-family/Chapter 10/command-line-demo/target/" />
+    <ignored path="$PROJECT_DIR$/../geektime-spring-family/Chapter 15/lazy-customer-service/target/" />
+    <ignored path="$PROJECT_DIR$/../geektime-spring-family/Chapter 12/feign-customer-service/target/" />
+    <ignored path="$PROJECT_DIR$/../geektime-spring-family/Chapter 12/eureka-waiter-service/target/" />
+    <ignored path="$PROJECT_DIR$/../geektime-spring-family/Chapter 2/pure-spring-datasource-demo/target/" />
+    <ignored path="$PROJECT_DIR$/../geektime-spring-family/Chapter 5/mongodb-demo/target/" />
+    <ignored path="$PROJECT_DIR$/../geektime-spring-family/Chapter 12/nacos-customer-service/target/" />
+    <ignored path="$PROJECT_DIR$/../geektime-spring-family/Chapter 8/hateoas-customer-service/target/" />
+    <ignored path="$PROJECT_DIR$/../geektime-spring-family/Chapter 12/eureka-server/target/" />
+    <ignored path="$PROJECT_DIR$/../geektime-spring-family/Chapter 3/springbucks/target/" />
+    <ignored path="$PROJECT_DIR$/../geektime-spring-family/Chapter 10/http2-customer-service/target/" />
+    <ignored path="$PROJECT_DIR$/../geektime-spring-family/Chapter 13/circuit-break-demo/target/" />
+    <ignored path="$PROJECT_DIR$/../geektime-spring-family/Chapter 14/config-server/target/" />
+    <ignored path="$PROJECT_DIR$/../geektime-spring-family/Chapter 6/thymeleaf-view-demo/target/" />
+    <ignored path="$PROJECT_DIR$/../geektime-spring-family/FAQ 2019-03/stream-demo/target/" />
+    <ignored path="$PROJECT_DIR$/../geektime-spring-family/Chapter 13/hystrix-dashboard-demo/target/" />
+    <ignored path="$PROJECT_DIR$/../geektime-spring-family/Chapter 10/http2-waiter-service/target/" />
+    <ignored path="$PROJECT_DIR$/../geektime-spring-family/Chapter 3/mybatis-demo/target/" />
+    <ignored path="$PROJECT_DIR$/../geektime-spring-family/Chapter 9/geektime-spring-boot-starter/target/" />
+    <ignored path="$PROJECT_DIR$/../geektime-spring-family/Chapter 2/errorcode-demo/target/" />
+    <ignored path="$PROJECT_DIR$/../geektime-spring-family/Chapter 9/greeting/target/" />
+    <ignored path="$PROJECT_DIR$/../geektime-spring-family/Chapter 9/geektime-autoconfigure-backport/target/" />
+    <ignored path="$PROJECT_DIR$/../geektime-spring-family/Chapter 3/mybatis-pagehelper-demo/target/" />
+    <ignored path="$PROJECT_DIR$/../geektime-spring-family/Chapter 10/docker-demo/target/" />
+    <ignored path="$PROJECT_DIR$/../geektime-spring-family/Chapter 12/consul-waiter-service/target/" />
+    <ignored path="$PROJECT_DIR$/../geektime-spring-family/Chapter 9/property-source-demo/target/" />
+    <ignored path="$PROJECT_DIR$/../geektime-spring-family/Chapter 3/jpa-complex-demo/target/" />
+    <ignored path="$PROJECT_DIR$/../geektime-spring-family/Chapter 6/exception-demo/target/" />
+    <ignored path="$PROJECT_DIR$/../geektime-spring-family/Chapter 5/simple-r2dbc-demo/target/" />
+    <ignored path="$PROJECT_DIR$/../geektime-spring-family/Chapter 13/ratelimiter-waiter-service/target/" />
+    <ignored path="$PROJECT_DIR$/../geektime-spring-family/Chapter 8/webflux-waiter-service/target/" />
+    <ignored path="$PROJECT_DIR$/../geektime-spring-family/Chapter 10/metrics-demo/target/" />
+    <ignored path="$PROJECT_DIR$/../geektime-spring-family/Chapter 15/kafka-waiter-service/target/" />
+    <ignored path="$PROJECT_DIR$/../geektime-spring-family/Chapter 3/mybatis-generator-demo/target/" />
+    <ignored path="$PROJECT_DIR$/../geektime-spring-family/Chapter 4/cache-with-redis-demo/target/" />
+    <ignored path="$PROJECT_DIR$/../geektime-spring-family/Chapter 6/context-hierarchy-demo/target/" />
+    <ignored path="$PROJECT_DIR$/../geektime-spring-family/Chapter 6/more-complex-controller-demo/target/" />
+    <ignored path="$PROJECT_DIR$/../geektime-spring-family/Chapter 3/jpa-demo/target/" />
+    <ignored path="$PROJECT_DIR$/../geektime-spring-family/Chapter 15/busy-waiter-service/target/" />
+    <ignored path="$PROJECT_DIR$/../geektime-spring-family/Chapter 2/declarative-transaction-demo/target/" />
+    <ignored path="$PROJECT_DIR$/../geektime-spring-family/Chapter 4/redis-demo/target/" />
+    <ignored path="$PROJECT_DIR$/../geektime-spring-family/Chapter 1/helloworld/target/" />
+    <ignored path="$PROJECT_DIR$/../geektime-spring-family/Chapter 12/zk-waiter-service/target/" />
+    <ignored path="$PROJECT_DIR$/../geektime-spring-family/Chapter 7/customer-service/target/" />
+    <ignored path="$PROJECT_DIR$/../geektime-spring-family/FAQ 2019-03/jpa-demo/target/" />
+    <ignored path="$PROJECT_DIR$/../geektime-spring-family/Chapter 4/cache-demo/target/" />
+    <ignored path="$PROJECT_DIR$/../geektime-spring-family/Chapter 14/consul-config-waiter-service/target/" />
+    <ignored path="$PROJECT_DIR$/../geektime-spring-family/Chapter 6/cache-demo/target/" />
+    <ignored path="$PROJECT_DIR$/../geektime-spring-family/Chapter 15/rabbitmq-waiter-service/target/" />
+    <ignored path="$PROJECT_DIR$/../geektime-spring-family/Chapter 9/autoconfigure-demo/target/" />
+    <ignored path="$PROJECT_DIR$/../geektime-spring-family/Chapter 4/jedis-demo/target/" />
+    <ignored path="$PROJECT_DIR$/../geektime-spring-family/Chapter 16/sleuth-waiter-service/target/" />
+    <ignored path="$PROJECT_DIR$/../geektime-spring-family/Chapter 12/zk-customer-service/target/" />
+    <ignored path="$PROJECT_DIR$/../geektime-spring-family/Chapter 13/hystrix-stream-customer-service/target/" />
+    <ignored path="$PROJECT_DIR$/../geektime-spring-family/Chapter 14/nacos-config-waiter-service/target/" />
+    <ignored path="$PROJECT_DIR$/../geektime-spring-family/Chapter 10/tomcat-demo/target/" />
+    <ignored path="$PROJECT_DIR$/../geektime-spring-family/FAQ 2019-02/transaction-propagation-demo/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ErrorTreeViewConfiguration">
+    <option name="autoscrollToSource" value="true" />
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="true" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../user-service-provider/src/main/java/thread/test/Test.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="207">
+              <caret line="9" column="19" lean-forward="true" selection-start-line="9" selection-start-column="19" selection-end-line="9" selection-end-column="19" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#488#678#0" expanded="true" />
+                <element signature="e#677#678#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-tx/5.2.15.RELEASE/spring-tx-5.2.15.RELEASE-sources.jar!/org/springframework/transaction/config/AnnotationDrivenBeanDefinitionParser.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="299">
+              <caret line="41" column="49" selection-start-line="41" selection-start-column="49" selection-end-line="41" selection-end-column="49" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-aop/4.3.16.RELEASE/spring-aop-4.3.16.RELEASE-sources.jar!/org/springframework/aop/framework/JdkDynamicAopProxy.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-163">
+              <caret line="63" lean-forward="true" selection-start-line="63" selection-end-line="63" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../user-service-provider/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="276">
+              <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/../user-service-provider/src/main/java/com/dubbo/MainApplication.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="345">
+              <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-tx/5.2.15.RELEASE/spring-tx-5.2.15.RELEASE-sources.jar!/org/springframework/transaction/support/TransactionTemplate.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-421">
+              <caret line="129" column="44" selection-start-line="129" selection-start-column="25" selection-end-line="129" selection-end-column="44" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="spring-beans.schema" />
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>run</find>
+      <find>Isolation</find>
+      <find>TransactionCallback</find>
+    </findStrings>
+    <replaceStrings>
+      <replace />
+    </replaceStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/dubbo/service/Impl/MainApplication.java" />
+        <option value="$PROJECT_DIR$/../dubbo-base-interface/src/main/java/com/dubbo/bean/UserAddress.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/dubbo/service/Impl/OrderServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/consumer.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/dubbo/MainApplication.java" />
+        <option value="$PROJECT_DIR$/../user-service-provider/src/main/java/Test.java" />
+        <option value="$PROJECT_DIR$/../user-service-provider/src/test/java/A.java" />
+        <option value="$PROJECT_DIR$/../user-service-provider/src/test/java/Test.java" />
+        <option value="$PROJECT_DIR$/../user-service-provider/pom.xml" />
+        <option value="$PROJECT_DIR$/../user-service-provider/src/main/java/thread/test/Singleton.java" />
+        <option value="$PROJECT_DIR$/../user-service-provider/src/main/java/thread/test/Test1.java" />
+        <option value="$PROJECT_DIR$/../user-service-provider/src/main/java/thread/test/MyThread.java" />
+        <option value="$PROJECT_DIR$/../user-service-provider/src/main/java/thread/test/bishi/MyThread.java" />
+        <option value="$PROJECT_DIR$/../user-service-provider/src/main/java/thread/test/Test.java" />
+        <option value="$PROJECT_DIR$/../user-service-provider/src/main/java/com/dubbo/MainApplication.java" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="$APPLICATION_HOME_DIR$/plugins/maven/lib/maven3" />
+        <option name="userSettingsFile" value="E:\Program Files\JetBrains\IntelliJ IDEA 2018.3.6\plugins\maven\lib\maven3\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="downloadSourcesAutomatically" value="true" />
+        <option name="importAutomatically" value="true" />
+        <option name="lookForNested" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="829" />
+    <option name="y" value="304" />
+    <option name="width" value="1400" />
+    <option name="height" value="1053" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="order-service-consumer" type="b2602c69:ProjectViewProjectNode" />
+              <item name="user-com" type="9c53a853:ProjectViewModuleGroupNode" />
+            </path>
+            <path>
+              <item name="order-service-consumer" type="b2602c69:ProjectViewProjectNode" />
+              <item name="user-com" type="9c53a853:ProjectViewModuleGroupNode" />
+              <item name="dubbo" type="9c53a853:ProjectViewModuleGroupNode" />
+            </path>
+            <path>
+              <item name="order-service-consumer" type="b2602c69:ProjectViewProjectNode" />
+              <item name="user-com" type="9c53a853:ProjectViewModuleGroupNode" />
+              <item name="dubbo" type="9c53a853:ProjectViewModuleGroupNode" />
+              <item name="user-service-provider" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="order-service-consumer" type="b2602c69:ProjectViewProjectNode" />
+              <item name="user-com" type="9c53a853:ProjectViewModuleGroupNode" />
+              <item name="dubbo" type="9c53a853:ProjectViewModuleGroupNode" />
+              <item name="user-service-provider" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="order-service-consumer" type="b2602c69:ProjectViewProjectNode" />
+              <item name="user-com" type="9c53a853:ProjectViewModuleGroupNode" />
+              <item name="dubbo" type="9c53a853:ProjectViewModuleGroupNode" />
+              <item name="user-service-provider" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="order-service-consumer" type="b2602c69:ProjectViewProjectNode" />
+              <item name="user-com" type="9c53a853:ProjectViewModuleGroupNode" />
+              <item name="dubbo" type="9c53a853:ProjectViewModuleGroupNode" />
+              <item name="user-service-provider" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="order-service-consumer" type="b2602c69:ProjectViewProjectNode" />
+              <item name="user-com" type="9c53a853:ProjectViewModuleGroupNode" />
+              <item name="dubbo" type="9c53a853:ProjectViewModuleGroupNode" />
+              <item name="user-service-provider" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="dubbo" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="order-service-consumer" type="b2602c69:ProjectViewProjectNode" />
+              <item name="user-com" type="9c53a853:ProjectViewModuleGroupNode" />
+              <item name="dubbo" type="9c53a853:ProjectViewModuleGroupNode" />
+              <item name="user-service-provider" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="order-service-consumer" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dubbo-base-interface" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1649586954248" />
+    <property name="last_directory_selection" value="$PROJECT_DIR$/src/main/java/com/dubbo" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../dubbo-base-interface" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.MyThread">
+    <configuration name="A" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="A" />
+      <module name="user-com.dubbo.service-provider" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MyThread" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="thread.test.bishi.MyThread" />
+      <module name="user-com.dubbo.service-provider" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="thread.test.bishi.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Singleton" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="thread.test.Singleton" />
+      <module name="user-com.dubbo.service-provider" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="thread.test.bishi.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Test" />
+      <module name="user-com.dubbo.service-provider" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="thread.test.Test1" />
+      <module name="user-com.dubbo.service-provider" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="thread.test.bishi.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpringBucksApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="springbucks" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="geektime.spring.springbucks.SpringBucksApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.MyThread" />
+        <item itemvalue="Application.Singleton" />
+        <item itemvalue="Application.Test1" />
+        <item itemvalue="Application.A" />
+        <item itemvalue="Application.Test" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="17b98822-600c-4a94-9b05-efb6cfa9f32a" name="Default Changelist" comment="" />
+      <created>1645335505626</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1645335505626</updated>
+      <workItem from="1645335510244" duration="2000" />
+      <workItem from="1645347408549" duration="4599000" />
+      <workItem from="1645529546587" duration="5014000" />
+      <workItem from="1645622652875" duration="1632000" />
+      <workItem from="1645710230552" duration="2501000" />
+      <workItem from="1645789867444" duration="663000" />
+      <workItem from="1646915791264" duration="1182000" />
+      <workItem from="1647002030419" duration="1748000" />
+      <workItem from="1647139223025" duration="7384000" />
+      <workItem from="1647266723597" duration="1053000" />
+      <workItem from="1647517930687" duration="3735000" />
+      <workItem from="1647948647225" duration="4821000" />
+      <workItem from="1648389721165" duration="560000" />
+      <workItem from="1648472697209" duration="2486000" />
+      <workItem from="1648550418832" duration="6310000" />
+      <workItem from="1648896706252" duration="595000" />
+      <workItem from="1649040487285" duration="571000" />
+      <workItem from="1649331330153" duration="4129000" />
+      <workItem from="1649582286308" duration="2015000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="51000000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="829" y="304" width="1400" height="1053" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.27313432" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.21372855" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39864865" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32932693" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" weight="0.32932693" />
+      <window_info anchor="bottom" id="Database Changes" order="9" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.32932693" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" weight="0.32995495" />
+      <window_info anchor="bottom" id="Spring" order="12" weight="0.32932693" />
+      <window_info anchor="bottom" id="Messages" order="13" weight="0.32882884" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Theme Preview" order="4" />
+      <window_info anchor="right" id="Maven" order="5" />
+      <window_info anchor="right" id="Capture Analysis" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Database" order="8" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/../user-service-provider/src/test/java/A.java</url>
+          <line>51</line>
+          <properties />
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/../user-service-provider/src/test/java/A.java</url>
+          <line>108</line>
+          <properties />
+          <option name="timeStamp" value="11" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/../dubbo-base-interface/src/main/java/com/dubbo/bean/UserAddress.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="483">
+          <caret line="23" column="5" lean-forward="true" selection-start-line="23" selection-start-column="5" selection-end-line="23" selection-end-column="5" />
+          <folding>
+            <element signature="e#727#728#0" expanded="true" />
+            <element signature="e#752#753#0" expanded="true" />
+            <element signature="e#789#790#0" expanded="true" />
+            <element signature="e#817#818#0" expanded="true" />
+            <element signature="e#855#856#0" expanded="true" />
+            <element signature="e#889#890#0" expanded="true" />
+            <element signature="e#943#944#0" expanded="true" />
+            <element signature="e#989#990#0" expanded="true" />
+            <element signature="e#1022#1023#0" expanded="true" />
+            <element signature="e#1051#1052#0" expanded="true" />
+            <element signature="e#1095#1096#0" expanded="true" />
+            <element signature="e#1131#1132#0" expanded="true" />
+            <element signature="e#1167#1168#0" expanded="true" />
+            <element signature="e#1199#1200#0" expanded="true" />
+            <element signature="e#1249#1250#0" expanded="true" />
+            <element signature="e#1291#1292#0" expanded="true" />
+            <element signature="e#1326#1327#0" expanded="true" />
+            <element signature="e#1357#1358#0" expanded="true" />
+            <element signature="e#1405#1406#0" expanded="true" />
+            <element signature="e#1445#1446#0" expanded="true" />
+            <element signature="e#1481#1482#0" expanded="true" />
+            <element signature="e#1513#1514#0" expanded="true" />
+            <element signature="e#1563#1564#0" expanded="true" />
+            <element signature="e#1605#1606#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://E:/Program Files/JDK/jdk1.8.0_231/src.zip!/java/util/List.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="268">
+          <caret line="475" column="32" selection-start-line="475" selection-start-column="22" selection-end-line="475" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://E:/Program Files/JDK/jdk1.8.0_231/src.zip!/java/util/Map.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="177">
+          <caret line="359" column="15" selection-start-line="359" selection-start-column="15" selection-end-line="359" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://E:/Program Files/JDK/jdk1.8.0_231/src.zip!/java/lang/String.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="452">
+          <caret line="1160" column="25" lean-forward="true" selection-start-line="1160" selection-start-column="25" selection-end-line="1160" selection-end-column="25" />
+          <folding>
+            <element signature="e#94598#94599#0" expanded="true" />
+            <element signature="e#94636#94637#0" expanded="true" />
+            <element signature="e#113343#113344#0" expanded="true" />
+            <element signature="e#113370#113371#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://E:/Program Files/JDK/jdk1.8.0_231/src.zip!/java/lang/Comparable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="268">
+          <caret line="95" column="17" selection-start-line="95" selection-start-column="17" selection-end-line="95" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://E:/Program Files/JDK/jdk1.8.0_231/src.zip!/java/util/Comparator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="268">
+          <caret line="149" column="8" selection-start-line="149" selection-start-column="8" selection-end-line="149" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="218">
+          <caret line="24" column="20" selection-start-line="24" selection-start-column="20" selection-end-line="24" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/consumer.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="11" column="8" selection-start-line="11" selection-start-column="8" selection-end-line="11" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../user-service-provider/src/main/java/Test.java" />
+    <entry file="jar://E:/Program Files/JDK/jdk1.8.0_231/src.zip!/java/lang/Thread.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="246">
+          <caret line="745" column="16" selection-start-line="745" selection-start-column="16" selection-end-line="745" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/dubbo/service/Impl/OrderServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="368">
+          <caret line="22" column="42" selection-start-line="22" selection-start-column="42" selection-end-line="22" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/dubbo/MainApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="301">
+          <caret line="16" column="25" selection-start-line="16" selection-start-column="25" selection-end-line="16" selection-end-column="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://E:/Program Files/JDK/jdk1.8.0_231/src.zip!/java/net/SocketInputStream.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="169">
+          <caret line="93" column="23" selection-start-line="93" selection-start-column="23" selection-end-line="93" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../user-service-provider/src/test/java/Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1679">
+          <caret line="77" column="25" selection-start-line="77" selection-start-column="25" selection-end-line="77" selection-end-column="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../user-service-provider/src/test/java/A.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="793">
+          <caret line="140" column="35" selection-start-line="140" selection-start-column="35" selection-end-line="140" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../user-service-provider/src/main/java/thread/test/Singleton.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="12" selection-start-column="12" selection-end-column="12" />
+          <folding>
+            <element signature="e#541#943#0" expanded="true" />
+            <element signature="e#942#943#0" expanded="true" />
+            <element signature="e#1890#2532#0" expanded="true" />
+            <element signature="e#2531#2532#0" expanded="true" />
+            <element signature="e#1881#1882#0" expanded="true" />
+            <element signature="e#1909#1910#0" expanded="true" />
+            <element signature="e#1942#1943#0" expanded="true" />
+            <element signature="e#1968#1969#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../user-service-provider/src/main/java/thread/test/MyThread1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="69">
+          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../geektime-spring-family/Chapter 2/programmatic-transaction-demo/pom.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../geektime-spring-family/Chapter 2/programmatic-transaction-demo/src/main/java/geektime/spring/data/programmatictransactiondemo/ProgrammaticTransactionDemoApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="437">
+          <caret line="32" column="31" lean-forward="true" selection-start-line="32" selection-start-column="30" selection-end-line="32" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../user-service-provider/src/main/java/com/dubbo/service/Impl/UserServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../user-service-provider/src/main/java/thread/test/bishi/MyThread.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="586">
+          <caret line="85" column="32" selection-start-line="85" selection-start-column="31" selection-end-line="85" selection-end-column="32" />
+          <folding>
+            <element signature="e#363#364#0" expanded="true" />
+            <element signature="e#406#407#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../user-service-provider/src/main/java/thread/test/Test1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="437">
+          <caret line="22" column="31" selection-start-line="22" selection-start-column="31" selection-end-line="22" selection-end-column="31" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/ctrip/framework/apollo/apollo-core/1.2.0/apollo-core-1.2.0-sources.jar!/com/ctrip/framework/apollo/tracer/spi/Transaction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="322">
+          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-tx/5.2.15.RELEASE/spring-tx-5.2.15.RELEASE-sources.jar!/org/springframework/transaction/support/TransactionTemplate.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-421">
+          <caret line="129" column="44" selection-start-line="129" selection-start-column="25" selection-end-line="129" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-tx/5.2.15.RELEASE/spring-tx-5.2.15.RELEASE-sources.jar!/org/springframework/transaction/config/AnnotationDrivenBeanDefinitionParser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="299">
+          <caret line="41" column="49" selection-start-line="41" selection-start-column="49" selection-end-line="41" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-aop/4.3.16.RELEASE/spring-aop-4.3.16.RELEASE-sources.jar!/org/springframework/aop/framework/JdkDynamicAopProxy.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-163">
+          <caret line="63" lean-forward="true" selection-start-line="63" selection-end-line="63" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../dubbo-base-interface/pom.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../user-service-provider/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="276">
+          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../user-service-provider/src/main/java/thread/test/Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="9" column="19" lean-forward="true" selection-start-line="9" selection-start-column="19" selection-end-line="9" selection-end-column="19" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#488#678#0" expanded="true" />
+            <element signature="e#677#678#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../user-service-provider/src/main/java/com/dubbo/MainApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>Spring</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>base-interface</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Maven: com.alibaba:dubbo:2.6.2</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ScopeChooserConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

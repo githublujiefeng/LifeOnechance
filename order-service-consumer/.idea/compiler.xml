@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="base-interface" />
+        <module name="order-com.dubbo.service-consumer" />
+        <module name="user-com.dubbo.service-provider" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel target="8">
+      <module name="autoconfigure-demo" target="1.5" />
+      <module name="barista-service (1)" target="1.5" />
+      <module name="barista-service (2)" target="1.5" />
+      <module name="barista-service (3)" target="1.5" />
+      <module name="barista-service (4)" target="1.5" />
+      <module name="command-line" target="1.5" />
+      <module name="config-server" target="1.5" />
+      <module name="context-hierarchy-demo" target="1.5" />
+      <module name="customer-service (1)" target="1.5" />
+      <module name="customer-service (10)" target="1.5" />
+      <module name="customer-service (11)" target="1.5" />
+      <module name="customer-service (12)" target="1.5" />
+      <module name="customer-service (13)" target="1.5" />
+      <module name="customer-service (14)" target="1.5" />
+      <module name="customer-service (15)" target="1.5" />
+      <module name="customer-service (16)" target="1.5" />
+      <module name="customer-service (17)" target="1.5" />
+      <module name="customer-service (18)" target="1.5" />
+      <module name="customer-service (19)" target="1.5" />
+      <module name="customer-service (2)" target="1.5" />
+      <module name="customer-service (20)" target="1.5" />
+      <module name="customer-service (21)" target="1.5" />
+      <module name="customer-service (22)" target="1.5" />
+      <module name="customer-service (3)" target="1.5" />
+      <module name="customer-service (4)" target="1.5" />
+      <module name="customer-service (5)" target="1.5" />
+      <module name="customer-service (6)" target="1.5" />
+      <module name="customer-service (7)" target="1.5" />
+      <module name="customer-service (8)" target="1.5" />
+      <module name="customer-service (9)" target="1.5" />
+      <module name="datasource-demo" target="1.5" />
+      <module name="declarative-transaction-demo" target="1.5" />
+      <module name="druid-demo (1)" target="1.5" />
+      <module name="druid-demo (2)" target="1.5" />
+      <module name="errorcode-demo" target="1.5" />
+      <module name="eureka-server" target="1.5" />
+      <module name="geektime-autoconfigure-backport" target="1.5" />
+      <module name="geektime-spring-boot-autoconfigure" target="1.5" />
+      <module name="geektime-spring-boot-starter" target="1.5" />
+      <module name="greeting" target="1.5" />
+      <module name="helloworld" target="1.5" />
+      <module name="hystrix-dashboard-demo" target="1.5" />
+      <module name="jpa-complex-demo" target="1.5" />
+      <module name="jpa-demo (1)" target="1.5" />
+      <module name="jpa-demo (2)" target="1.5" />
+      <module name="mongo-demo" target="1.5" />
+      <module name="mongo-repository-demo" target="1.5" />
+      <module name="mongodb-demo" target="1.5" />
+      <module name="multi-datasource-demo" target="1.5" />
+      <module name="mybatis-demo" target="1.5" />
+      <module name="mybatis-generator-demo" target="1.5" />
+      <module name="mybatis-pagehelper-demo" target="1.5" />
+      <module name="programmatic-transaction-demo" target="1.5" />
+      <module name="property-source-demo" target="1.5" />
+      <module name="pure-spring-datasource-demo" target="1.5" />
+      <module name="r2dbc-repository-demo" target="1.5" />
+      <module name="reactive-springbucks" target="1.5" />
+      <module name="redis-demo" target="1.5" />
+      <module name="sba-client" target="1.5" />
+      <module name="sba-server" target="1.5" />
+      <module name="session-demo" target="1.5" />
+      <module name="simple-jdbc-demo" target="1.5" />
+      <module name="simple-r2dbc-demo" target="1.5" />
+      <module name="simple-reactor-demo" target="1.5" />
+      <module name="springbucks" target="1.8" />
+      <module name="springbucks (1)" target="1.5" />
+      <module name="springbucks (2)" target="1.5" />
+      <module name="springbucks (3)" target="1.5" />
+      <module name="springbucks (4)" target="1.5" />
+      <module name="springbucks (5)" target="1.5" />
+      <module name="springbucks (6)" target="1.5" />
+      <module name="springbucks (7)" target="1.5" />
+      <module name="stream-demo" target="1.5" />
+      <module name="transaction-propagation-demo" target="1.5" />
+      <module name="turbine-demo" target="1.5" />
+      <module name="waiter-service (1)" target="1.5" />
+      <module name="waiter-service (10)" target="1.5" />
+      <module name="waiter-service (11)" target="1.5" />
+      <module name="waiter-service (12)" target="1.5" />
+      <module name="waiter-service (13)" target="1.5" />
+      <module name="waiter-service (14)" target="1.5" />
+      <module name="waiter-service (15)" target="1.5" />
+      <module name="waiter-service (16)" target="1.5" />
+      <module name="waiter-service (17)" target="1.5" />
+      <module name="waiter-service (18)" target="1.5" />
+      <module name="waiter-service (19)" target="1.5" />
+      <module name="waiter-service (2)" target="1.5" />
+      <module name="waiter-service (20)" target="1.5" />
+      <module name="waiter-service (21)" target="1.5" />
+      <module name="waiter-service (22)" target="1.5" />
+      <module name="waiter-service (23)" target="1.5" />
+      <module name="waiter-service (24)" target="1.5" />
+      <module name="waiter-service (25)" target="1.5" />
+      <module name="waiter-service (26)" target="1.5" />
+      <module name="waiter-service (27)" target="1.5" />
+      <module name="waiter-service (28)" target="1.5" />
+      <module name="waiter-service (29)" target="1.5" />
+      <module name="waiter-service (3)" target="1.5" />
+      <module name="waiter-service (30)" target="1.5" />
+      <module name="waiter-service (31)" target="1.5" />
+      <module name="waiter-service (4)" target="1.5" />
+      <module name="waiter-service (5)" target="1.5" />
+      <module name="waiter-service (6)" target="1.5" />
+      <module name="waiter-service (7)" target="1.5" />
+      <module name="waiter-service (8)" target="1.5" />
+      <module name="waiter-service (9)" target="1.5" />
+      <module name="webclient-demo" target="1.5" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="springbucks" options="-parameters" />
+    </option>
+  </component>
+</project>
