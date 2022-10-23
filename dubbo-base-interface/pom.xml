@@ -6,7 +6,11 @@
 
     <groupId>com.learn.dubbo</groupId>
     <artifactId>base-interface</artifactId>
+    <packaging>pom</packaging>
     <version>1.0-SNAPSHOT</version>
+    <modules>
+        <module>../rpc</module>
+    </modules>
 
 
 </project>

@@ -19,7 +19,7 @@ import java.util.List;
 public class OrderServiceImpl implements OrderService {
 
     //@Autowired
-    @Reference
+    //@Reference(timeout = 200)
     UserService userService;
 
 //    public void initOrder(String userId) {
@@ -31,6 +31,7 @@ public class OrderServiceImpl implements OrderService {
 //            System.out.println(address.getUserAddress());
 //        }
 //    }
+
     public List<UserAddress> initOrder(String userId) {
         System.out.println("用户id："+userId);
         //1、查询用户收货地址

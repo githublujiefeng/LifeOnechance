@@ -1,15 +1,15 @@
 package learn.dubbo.provider.service.Impl;
 
-import com.alibaba.dubbo.config.annotation.Service;
 import com.dubbo.bean.UserAddress;
 import com.dubbo.service.UserService;
 import org.springframework.stereotype.Component;
 
 import java.util.Arrays;
 import java.util.List;
-@Service//暴露dubbo服务
+//@Service//暴露dubbo服务
 @Component
 public class UserServiceImpl implements UserService {
+
 
     public List<UserAddress> getUserAddressList(String userId) {
         UserAddress address1 = new UserAddress(1,"杭州市萧山区宁东北苑","1","李老师","010-11111111","Y");
