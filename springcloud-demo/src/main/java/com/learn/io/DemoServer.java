@@ -57,7 +57,7 @@ class RequestHandler extends Thread {
         System.out.println("启动RequestHandler");
         try (PrintWriter out = new PrintWriter(socket.getOutputStream());) {
             out.println("Hello world!");
-            out.println("dd");
+            out.println("util");
             out.flush();
         } catch (Exception e) {
             e.printStackTrace();

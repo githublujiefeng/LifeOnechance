@@ -1,9 +1,10 @@
 package com.learn.java2.stream;
 
 import com.learn.java2.stream.PoJo.Apple;
-import org.springframework.util.StringUtils;
 
 import java.util.*;
+import java.util.function.Function;
+import java.util.stream.Collectors;
 
 public class StreamApi {
     public static void main(String[] args) {
@@ -37,7 +38,8 @@ public class StreamApi {
         //函数传递map()
         apples.stream().map(Apple::getColor).distinct().forEach(System.out::println);
         apples.stream().map(Apple::getColor).distinct().map(String::toUpperCase).forEach(System.out::println);
-
+        //list转map，toMap的第一个参数为key，第二个为value，第三个为key重复时的解决方法
+        Map map =new ArrayList<String>().stream().collect(Collectors.toMap(Object::toString, Function.identity(),(a, b)->a));
         /**
          * stream流的终止操作
          */

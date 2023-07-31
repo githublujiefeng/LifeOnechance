@@ -1,10 +1,10 @@
 package com.learn.redis.Controller;
 
-import lombok.extern.slf4j.Slf4j;
-import org.springframework.stereotype.Controller;
-import org.springframework.web.bind.annotation.RequestMapping;
 import com.learn.redis.entity.UserEntity;
+import com.learn.redis.service.StudentServiceImpl;
 import com.learn.redis.util.RedisUtil;
+import lombok.extern.slf4j.Slf4j;
+import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 import javax.annotation.Resource;
@@ -40,5 +40,10 @@ public class RedisController {
     @RequestMapping("/expire")
     public boolean expire(String key) {
         return redisUtil.expire(key, ExpireTime);
+    }
+
+    @RequestMapping("/lockTest")
+    public void lockSave(){
+        new StudentServiceImpl().lockTest1(222);
     }
 }
