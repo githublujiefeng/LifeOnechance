@@ -7,7 +7,7 @@ import org.springframework.stereotype.Component;
 import java.util.Arrays;
 import java.util.List;
 //@Service//暴露dubbo服务
-@Component
+//@Component
 public class UserServiceImpl implements UserService {
 
 

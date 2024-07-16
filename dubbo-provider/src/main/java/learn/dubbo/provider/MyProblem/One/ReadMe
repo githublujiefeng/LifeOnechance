@@ -1,0 +1,5 @@
+问题描述：
+resources/flow文件下有对应后缀为.flw的文件。
+现需要扫描flow文件，将后缀为.flow的文件转换为ISimpleJob类型的bean对象，此类对象的生成要在InitializingBean的afterPropertiesSet()执行之前
+
+

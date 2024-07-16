@@ -8,6 +8,7 @@ import org.springframework.core.type.classreading.MetadataReader;
 
 import java.io.IOException;
 import java.util.Set;
+import java.util.concurrent.ConcurrentHashMap;
 
 public class ZhouyuMapperScanner extends ClassPathBeanDefinitionScanner {
 
@@ -23,6 +24,7 @@ public class ZhouyuMapperScanner extends ClassPathBeanDefinitionScanner {
     //如果是接口
     @Override
     protected boolean isCandidateComponent(AnnotatedBeanDefinition beanDefinition) {
+        new ConcurrentHashMap<>();
         return beanDefinition.getMetadata().isInterface();
     }
 
