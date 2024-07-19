@@ -2,6 +2,7 @@ package learn.dubbo.provider.MyProblem.One.conf;
 
 
 import learn.dubbo.provider.MyProblem.One.Interface.IFlowTool;
+import learn.dubbo.provider.MyProblem.One.Interface.IJobWithFlowTool;
 import learn.dubbo.provider.MyProblem.One.Interface.ISimpleJobHandler;
 import learn.dubbo.provider.MyProblem.One.JobExecuteContext;
 import org.slf4j.Logger;
@@ -12,19 +13,14 @@ import org.springframework.stereotype.Component;
 import java.util.HashMap;
 import java.util.concurrent.ThreadPoolExecutor;
 
-@Component
-public  class AbstractSimpleJob implements ISimpleJobHandler {
+
+public  class AbstractSimpleJob implements ISimpleJobHandler, IJobWithFlowTool {
     private final Logger LOGGER = LoggerFactory.getLogger(getClass());
-    @Autowired
     private IFlowTool flowTool;
     private String name;
 
     public void setFlowTool(IFlowTool flowTool) {
         this.flowTool = flowTool;
-    }
-
-    public void setName(String name) {
-        this.name = name;
     }
 
     @Override

@@ -1,5 +1,7 @@
 package learn.dubbo.provider.MyProblem.One.conf;
 
+import learn.dubbo.provider.MyProblem.One.Interface.IFlowTool;
+import learn.dubbo.provider.MyProblem.One.Interface.IJobWithFlowTool;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.BeansException;
@@ -16,9 +18,10 @@ import org.springframework.util.StringUtils;
 
 import java.io.File;
 import java.io.IOException;
+import java.util.Map;
 
 @Component
-public class FlowBeanDefinitionsRegistery extends DefaultListableBeanFactory
+public class FlowBeanDefinitionsRegistery
         implements BeanDefinitionRegistryPostProcessor, EnvironmentAware, ResourceLoaderAware {
     private final Logger LOGGER = LoggerFactory.getLogger(getClass());
     private Environment environment;
@@ -39,6 +42,11 @@ public class FlowBeanDefinitionsRegistery extends DefaultListableBeanFactory
     @Override
     public void postProcessBeanFactory(ConfigurableListableBeanFactory configurableListableBeanFactory) throws BeansException {
         LOGGER.info("postProcessBeanFactory");
+        Object flowTool = configurableListableBeanFactory.getBean("areasFlowTool");
+        Map<String, IJobWithFlowTool> jobWithFlowTool = configurableListableBeanFactory.getBeansOfType(IJobWithFlowTool.class);
+        jobWithFlowTool.forEach((k,v)->{
+            v.setFlowTool((IFlowTool) flowTool);
+        });
     }
 
     @Override
@@ -92,17 +100,16 @@ public class FlowBeanDefinitionsRegistery extends DefaultListableBeanFactory
     private void createBeanDefinition(String flowName, BeanDefinitionRegistry beanDefinitionRegistry) {
 
         //第一种实现，是准备新建BeanDefinition对象，来实现每一个文件对应一个GenericBeanDefinition，可惜这样实现跟直接Component注解生成的BeanDefinition差距很大，在afterPropertiesSet里获取不到对应的bean
-//        GenericBeanDefinition flowBeanDefinition = new GenericBeanDefinition();
-//        flowBeanDefinition.setBeanClass(AbstractSimpleJob.class);
-//        BeanDefinition aresFlowTool = beanDefinitionRegistry.getBeanDefinition("aresFlowTool");
-//        flowBeanDefinition.getPropertyValues().add("aresFlowTool",aresFlowTool);
-//        flowBeanDefinition.getPropertyValues().add("name",flowName);
-//        flowBeanDefinition.setMethodOverrides(new MethodOverrides());
-
+        GenericBeanDefinition flowBeanDefinition = new GenericBeanDefinition();
+        flowBeanDefinition.setBeanClass(AbstractSimpleJob.class);
+//        BeanDefinition aresFlowTool = beanDefinitionRegistry.getBeanDefinition("areasFlowTool");
+//        flowBeanDefinition.getPropertyValues().add("flowTool",aresFlowTool);
+        flowBeanDefinition.getPropertyValues().add("name",flowName);
+        beanDefinitionRegistry.registerBeanDefinition(flowName, flowBeanDefinition);
         //第二种实现，下面的写法有问题，因为是以abstractSimpleJob模板来创建bean实例，导致属性name都相同，实际上name应该都是各自的flowName
-        BeanDefinition abstractSimpleJob = beanDefinitionRegistry.getBeanDefinition("abstractSimpleJob");
-        abstractSimpleJob.getPropertyValues().add("name",flowName);
-        beanDefinitionRegistry.registerBeanDefinition(flowName, abstractSimpleJob);
+//        BeanDefinition abstractSimpleJob = beanDefinitionRegistry.getBeanDefinition("abstractSimpleJob");
+//        abstractSimpleJob.getPropertyValues().add("name",flowName);
+//        beanDefinitionRegistry.registerBeanDefinition(flowName, abstractSimpleJob);
     }
 
     public Integer getSimpleJobCount() {
