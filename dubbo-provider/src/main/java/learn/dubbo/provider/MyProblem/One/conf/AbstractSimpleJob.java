@@ -19,6 +19,10 @@ public  class AbstractSimpleJob implements ISimpleJobHandler, IJobWithFlowTool {
     private IFlowTool flowTool;
     private String name;
 
+    public void setName(String name) {
+        this.name = name;
+    }
+
     public void setFlowTool(IFlowTool flowTool) {
         this.flowTool = flowTool;
     }
