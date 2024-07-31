@@ -7,6 +7,7 @@ import java.nio.charset.StandardCharsets;
 import java.nio.file.Files;
 import java.nio.file.Path;
 import java.nio.file.Paths;
+import java.util.ArrayList;
 import java.util.List;
 import java.util.regex.Pattern;
 import java.util.stream.Collectors;
@@ -29,7 +30,7 @@ public class CreatingStreams {
     public static void main(String[] args) throws IOException {
         Path path = Paths.get("C:\\Program Files\\JetBrains\\ideaProject\\springcloud-demo\\src\\main\\java\\com\\learn\\java2\\stream\\Stream1");
         String contents = new String(Files.readAllBytes(path), StandardCharsets.UTF_8);
-        Stream<String> words = Stream.of(contents.split("\\PL+"));
+        Stream<String> words = Stream.of(contents.split("\\PL+")).filter(a->!a.equals("lujiefeng"));
         show("words",words);
         Stream<String> song = Stream.of("gently","down","the","stream");
         show("song",song);
@@ -37,6 +38,7 @@ public class CreatingStreams {
         show("silence",silence);
         Stream<String>echos = Stream.generate(()->"echos");
         show("echos",echos);
+        new ArrayList<String>(){{add("aa");add("bb");add("cc");}}.forEach(System.out::println);
         Stream<Double> randoms = Stream.generate(Math::random);
         show("radoms",randoms);
         Stream<BigInteger> integers = Stream.iterate(BigInteger.ONE,n->n.add(BigInteger.ONE));

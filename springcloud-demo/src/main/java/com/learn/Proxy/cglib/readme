@@ -1,0 +1,11 @@
+CGLIB（Code Generation Library）是一个基于ASM的字节码生成库，它允许我们在运行时对字节码进行修改和动态生成。CGLIB通过继承的方式实现代理（最后这部分我们深思一下，它可能有哪些局限，final方法是不能够被重写，所以它不能增强被final修饰的方法，这个等下我们来验证）
+
+CGLIB的实现也有两个重要的成员组成，Enhancer、MethodInterceptor，其实这两个的使用和jdk实现的动态代理的Proxy、InvocationHandler非常相似
+
+Enhancer： 来指定要代理的目标对象，实际处理代理逻辑的对象，最终通过调用create()方法得到代理对象、对这个对象所有的非final方法的调用都会转发给MethodInterceptor
+MethodInterceptor： 动态代理对象的方法调用都会转发到intercept方法进行增强
+
+总结：
+1、JDK原声动态代理时java原声支持的、不需要任何外部依赖、但是它只能基于接口进行代理（因为它已经继承了proxy了，java不支持多继承）
+
+2、CGLIB通过继承的方式进行代理、无论目标对象没有没实现接口都可以代理，但是无法处理final的情况（final修饰的方法不能被覆写）

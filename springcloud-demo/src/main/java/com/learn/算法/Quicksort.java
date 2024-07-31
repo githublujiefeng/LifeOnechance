@@ -1,5 +1,8 @@
 package com.learn.算法;
 
+import java.util.Arrays;
+import java.util.List;
+
 //快排
 public class Quicksort {
 
@@ -52,4 +55,18 @@ public class Quicksort {
         A[i] = temp;
         return i;
     }
+    public List<List<Integer>> minimumAbsDifference(int[] arr) {
+        for(int i=1;i<arr.length;i++){
+            for(int j=0;j<arr.length-i;j++){
+                if(arr[j]>arr[j+1]){
+                    int temp = arr[j];
+                    arr[j] =arr[j+1];
+                    arr[j+1] = temp;
+                }
+            }
+        }
+        Arrays.stream(arr).forEach(System.out::println);
+        return null;
+    }
+
 }

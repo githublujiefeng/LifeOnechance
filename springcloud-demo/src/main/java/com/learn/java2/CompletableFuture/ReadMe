@@ -1,0 +1,59 @@
+Completable是Future接口的实现类，在JDK1.8中引入
+CompletableFuture的创建：
+
+说明：
+
+两个重载方法之间的区别 => 后者可以传入自定义Executor，前者是默认的，使用的ForkJoinPool
+supplyAsync和runAsync方法之间的区别 => 前者有返回值，后者无返回值
+Supplier是函数式接口，因此该方法需要传入该接口的实现类，追踪源码会发现在run方法中会调用该接口的方法。因此使用该方法创建CompletableFuture对象只需重写Supplier中的get方法，在get方法中定义任务即可。又因为函数式接口可以使用Lambda表达式，和new创建CompletableFuture对象相比代码会简洁不少
+使用new方法
+
+CompletableFuture<Double> futurePrice = new CompletableFuture<>();
+使用CompletableFuture#completedFuture静态方法创建
+
+public static <U> CompletableFuture<U> completedFuture(U value) {
+    return new CompletableFuture<U>((value == null) ? NIL : value);
+}
+参数的值为任务执行完的结果，一般该方法在实际应用中较少应用
+
+使用 CompletableFuture#supplyAsync静态方法创建 supplyAsync有两个重载方法：
+
+//方法一
+public static <U> CompletableFuture<U> supplyAsync(Supplier<U> supplier) {
+    return asyncSupplyStage(asyncPool, supplier);
+}
+//方法二
+public static <U> CompletableFuture<U> supplyAsync(Supplier<U> supplier,
+                                                   Executor executor) {
+    return asyncSupplyStage(screenExecutor(executor), supplier);
+}
+使用CompletableFuture#runAsync静态方法创建 runAsync有两个重载方法
+
+//方法一
+public static CompletableFuture<Void> runAsync(Runnable runnable) {
+    return asyncRunStage(asyncPool, runnable);
+}
+//方法二
+public static CompletableFuture<Void> runAsync(Runnable runnable, Executor executor) {
+    return asyncRunStage(screenExecutor(executor), runnable);
+}
+结果的获取： 对于结果的获取CompltableFuture类提供了四种方式
+
+//方式一
+public T get()
+//方式二
+public T get(long timeout, TimeUnit unit)
+//方式三
+public T getNow(T valueIfAbsent)
+//方式四
+public T join()
+说明：
+
+示例：
+
+get()和get(long timeout, TimeUnit unit) => 在Future中就已经提供了，后者提供超时处理，如果在指定时间内未获取结果将抛出超时异常
+getNow => 立即获取结果不阻塞，结果计算已完成将返回结果或计算过程中的异常，如果未计算完成将返回设定的valueIfAbsent值
+join => 方法里不会抛出异常
+
+
+在JDK1.8以前，通过调用线程池的submit方法可以让任务以异步的方式运行，该方法会返回一个Future对象，通过调用get方法获取异步执行的结果
